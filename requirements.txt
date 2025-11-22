@@ -1,0 +1,5 @@
+requirements.txt
+
+Basic packages required for the Medicine Reminder project
+
+schedule plyer
