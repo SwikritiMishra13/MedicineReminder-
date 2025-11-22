@@ -1,7 +1,8 @@
 import json
 import os
 
-DATA_FILE = "data/medicines.json"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_FILE = os.path.join(BASE_DIR, "data", "medicines.json")
 
 def load_data():
     """Loads medicine data from the JSON file."""
