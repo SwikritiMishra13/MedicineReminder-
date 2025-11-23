@@ -27,5 +27,5 @@ class TestAddMedicine(unittest.TestCase):
         medicines = load_medicines()
         self.assertEqual(len(medicines), 2)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     unittest.main()

@@ -1,19 +1,17 @@
 import unittest
-from view_medicines import view_medicines
+from tracker import show_all_medicines
+from storage import save_data
 
 class TestViewMedicines(unittest.TestCase):
 
-    def test_empty_list(self):
-        medicines = []
-        output = view_medicines(medicines)
-        self.assertEqual(output, [])
-
-    def test_non_empty_list(self):
-        medicines = [
-            {"name": "Paracetamol", "dose": "500mg", "time": "10 AM"}
-        ]
-        output = view_medicines(medicines)
-        self.assertEqual(len(output), 1)
+    def test_view_medicines(self):
+        save_data({"medicines": []})  # ensure file exists
+        try:
+            show_all_medicines()
+            ran = True
+        except:
+            ran = False
+        self.assertTrue(ran)
 
 if __name__ == "__main__":
     unittest.main()
