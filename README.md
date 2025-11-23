@@ -213,3 +213,6 @@ Status updated in JSON.
 Start Reminders
 
 Prints reminder message when time matches.
+
+
+By- Swikriti Mishra
