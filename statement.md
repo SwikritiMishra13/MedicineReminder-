@@ -1,72 +1,39 @@
-Project Statement
+Medicine Reminder
 
-📌 Project Title
+1. Problem Statement
 
-Medicine Reminder & Tracker System
-
-📖 Problem Statement
-
-Many people—especially elderly individuals, patients with chronic illnesses, and busy students—often forget to take their medicines on time. Missing dosages can lead to reduced treatment effectiveness and health complications. Traditional reminder methods (like manual notes, alarms, or verbal reminders) are unreliable and lack proper tracking.
-
-There is a need for a simple, beginner‑friendly system that:
-
-Stores medicine information
-
-Reminds the user at the correct time
-
-Tracks whether the medicine was taken or missed
+Many people forget to take their medicines on time, especially when managing multiple prescriptions.
+This project aims to provide a simple reminder system that helps users track medicine schedules.
 
 
-This project provides a basic Python‑based solution to address these issues using file storage instead of a database.
+2. Scope
 
-🎯 Scope of the Project
+The system allows users to store medicine details locally.
 
-The scope of this project includes:
+It provides basic operations: add, view, and schedule reminders.
 
-Building a menu-driven Python application
+Works completely offline and requires no database.
 
-Allowing users to add medicines with dosage and time
-
-Viewing all saved medicines
-
-Marking medicines as taken
-
-Providing time-based reminders
-
-Storing all data in a JSON file
-
-Ensuring a simple and beginner-appropriate implementation
+Small-scale, beginner-friendly project suitable for academic learning
 
 
-The project does not include database integration, advanced scheduling, mobile notifications, or GUI development. It remains within the boundaries of introductory Python concepts.
+3. Target Users
 
-👥 Target Users
+Students learning Python
 
-This system is designed for:
+Elderly people needing simple reminders
 
-Students
-
-Elderly individuals
-
-Patients with daily or frequent medication schedules
-
-Anyone who needs simple medicine tracking and reminders
+Anyone who wants a basic medicine notification system
 
 
-🚀 High-Level Features
+4. High-Level Features
 
-Medicine Management: Add, view, update status
+Add medicine information
 
-Reminder System: Alerts the user when it's time to take a medicine
+View all medicines
 
-File-Based Storage: JSON format for data persistence
+Daily automated reminders
 
-Simple Menu Interface: Easy for beginners to operate
+JSON-based file storage
 
-Tracking Feature: Mark medicine as "taken" for the day
-
-
-
----
-
-This statement.md file describes the foundation of the project and fulfills the documentation requirement for problem definition, scope, target users, and high-level features.
+Simple command-line interface

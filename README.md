@@ -1,97 +1,66 @@
-Medicine Reminder & Tracker
-
-This project is a beginner-friendly Python application that helps users manage their daily medicines by storing details, showing reminders, and tracking which medicines are taken.
+Medicine Reminder – Python Project
 
 📌 Overview
 
-The Medicine Reminder & Tracker allows users to:
+This is a simple console-based Medicine Reminder application.
+It allows users to add medicines, view their list, and run a daily reminder schedule.
+The project is designed to follow the basic principles of modular programming and file handling.
 
-Add medicines with name, dosage, and time
-
-View all medicines
-
-Mark medicines as taken
-
-Get time-based reminders
-
-
-The system uses JSON file storage instead of a database, making it simple for beginners.
 
 ✨ Features
 
-Add new medicines
+1. Add medicine details (name, dosage, time)
+2. View all added medicines
+3. Daily reminder scheduling using the schedule library
+4. JSON-based storage (no database required)
+5. Simple and beginner-friendly file structure
 
-Store dosage and daily schedule
+🧩 Technologies Used
 
-View all added medicines
-
-Mark medicine status as "taken"
-
-Automatic reminders based on system time
-
-File-based storage (no SQL required)
-
-
-🛠 Technologies Used
-
-Python 3
-
-JSON for data storage
-
-datetime module
-
-time module
-
+1. Python 3
+2. Schedule library (for reminders)
+3. JSON for storing data
 
 📁 Project Structure
 
-medicine-reminder/
-│
-├── src/
-│   ├── main.py
-│   ├── reminder.py
-│   ├── storage.py
-│   ├── tracker.py
-│   └── scheduler.py
+medicine-reminder-project/
 │
 ├── data/
 │   └── medicines.json
 │
-└── README.md
+├── src/
+│   ├── main.py
+│   ├── reminder.py
+│   ├── scheduler.py
+│   ├── storage.py
+│   ├── tracker.py
+│   └── utils/
+│       ├── helper.py
+│       └── validator.py
+│
+├── tests/
+├── README.md
+├── statement.md
+└── requirements.txt
 
-▶ How to Run the Project
+⚙ Installation & Running
 
-1. Clone the repository
+Step 1. — Install dependencies:
+    pip install -r requirements.txt
 
-git clone <your-repository-link>
+Step 2 — Run the project:
+    cd src
+    python main.py
 
-2. Navigate to the project folder
+📝 How to Use
 
-cd medicine-reminder
-
-3. Run the main program
-
-python src/main.py
+1. Choose 1 to add a medicine
+2. Choose 2 to view saved medicines
+3. Choose 3 to start the reminder scheduler
+4. Press Ctrl + C to stop the scheduler
 
 🧪 Testing Instructions
 
-Add some medicines using menu option 1
-
-View them using option 2
-
-Mark taken using option 3
-
-Start the reminder system using option 4 (optional)
-
-
-📷 Screenshots
-
-(Add your screenshots here under /screenshots folder)
-
-👩‍💻 Author
-
-Your Name Here
-
-📜 License
-
-This project is for academic use.
+1. Add 2–3 medicines
+2. Restart the program and verify they are still saved
+3. Start the scheduler at the correct time and see reminders
