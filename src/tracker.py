@@ -1,5 +1,5 @@
 from datetime import datetime
-from src.storage import load_data, save_data
+from storage import load_data, save_data
 
 def valid_time_format(t):
     """Validate time in format HH:MM AM/PM."""

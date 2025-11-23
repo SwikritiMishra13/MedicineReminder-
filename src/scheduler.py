@@ -1,6 +1,6 @@
 import time
 from datetime import datetime
-from src.storage import load_data
+from storage import load_data
 
 def check_and_alert(medicines, now_time, notify_fn):
     """
