@@ -52,3 +52,24 @@ Simple command-line interface
 3. Reminder Scheduling (scheduler.py & reminder.py)
    - Start a loop to check scheduled times
    - Trigger console reminders and log status
+
+   # Non-Functional Requirements
+
+1. Performance
+   - Scheduler checks reminders every 1 second.
+   - Operations (add/view/mark) must respond within 2 seconds.
+
+2. Usability
+   - Console menu with numbered options and clear prompts.
+   - Simple messages and confirmations for actions.
+
+3. Reliability
+   - Medicine data persists in data/medicines.json.
+   - Graceful handling of missing data file.
+
+4. Maintainability
+   - Modular code (tracker, storage, scheduler).
+   - Documented functions and comments.
+
+5. Error Handling
+   - Validate user input and handle exceptions during file IO.
