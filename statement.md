@@ -37,3 +37,18 @@ Daily automated reminders
 JSON-based file storage
 
 Simple command-line interface
+
+## Functional Modules
+
+1. Medicine Management (tracker.py)
+   - Add new medicine (name, dosage, time)
+   - Edit / delete medicine
+   - Mark medicine as taken
+
+2. Storage & Data Handling (storage.py)
+   - Read/write medicine data to data/medicines.json
+   - Provide functions: load_data(), save_data()
+
+3. Reminder Scheduling (scheduler.py & reminder.py)
+   - Start a loop to check scheduled times
+   - Trigger console reminders and log status
