@@ -64,3 +64,21 @@ Step 2 — Run the project:
 1. Add 2–3 medicines
 2. Restart the program and verify they are still saved
 3. Start the scheduler at the correct time and see reminders
+
+### Input / Output Examples
+
+1. Add medicine
+   - Input: name (string), dosage (string), time (string, e.g. 09:30 AM)
+   - Output: "Medicine added successfully." and entry saved to data/medicines.json
+
+2. View medicines
+   - Input: choose '2' in menu
+   - Output: printed list with index, name, dosage, time, status
+
+3. Mark taken
+   - Input: choose '3', then enter medicine index
+   - Output: status updated to "taken" in JSON and confirmation printed
+
+4. Start reminders
+   - Input: choose '4'
+   - Output: scheduler starts; when time matches shows "Reminder: Take <name> — <dosage>"
